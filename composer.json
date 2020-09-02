@@ -1,0 +1,24 @@
+{
+    "name": "splakatutay/products",
+    
+    "require": {
+        
+    },
+    
+    "extra": {
+    	"laravel": {
+    		"providers": [
+    			"Rcborinaga\\Products\\ProductsServiceProvider"
+    		]
+    	}
+    },
+    
+    "autoload": {
+    	"psr-4": {
+    		"Rcborinaga\\Products\\": "src"
+    	}
+    }
+
+    
+
+}
